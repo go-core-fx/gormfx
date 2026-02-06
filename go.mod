@@ -1,4 +1,4 @@
-module github.com/go-core-fx/template
+module github.com/go-core-fx/gormfx
 
 go 1.24.3
 
