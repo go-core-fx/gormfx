@@ -264,6 +264,7 @@ linters:
         - ^github.com/mitchellh/mapstructure.DecoderConfig$
         - ^github.com/mymmrac/telego.+Parameters$
         - ^github.com/prometheus/client_golang/.+Opts$
+        - ^github.com/revrost/go-openrouter.+$
         - ^github.com/secsy/goftp.Config$
         - ^github.com/Shopify/sarama.Config$
         - ^github.com/Shopify/sarama.ProducerMessage$
@@ -281,8 +282,9 @@ linters:
         - ^gopkg.in/telebot.v4.ReplyMarkup$
         - ^gopkg.in/telebot.v4.Settings$
         - ^gopkg.in/yaml.v3.Node$
+        - ^gorm.io/driver/mysql\.Config$
         - ^gorm.io/gorm/clause.+$
-        - ^github.com/revrost/go-openrouter.+$
+        - ^gorm.io/gorm\.Config$
       # Allows empty structures in return statements.
       # Default: false
       allow-empty-returns: true
