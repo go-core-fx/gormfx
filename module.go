@@ -1,11 +1,11 @@
-package template
+package gormfx
 
 import (
 	"github.com/go-core-fx/logger"
 	"go.uber.org/fx"
 )
 
-const ModuleName = "template"
+const ModuleName = "gormfx"
 
 func Module() fx.Option {
 	return fx.Module(
